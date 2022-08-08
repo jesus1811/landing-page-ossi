@@ -39,13 +39,13 @@
   flex-wrap: wrap;
 }
 .contentInformation > img {
-  height: 50vh;
+  width: 500px;
   position: absolute;
   object-fit: cover;
 }
 .informationAside {
   width: 100%;
-  flex: 300px;
+  flex: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,6 +61,6 @@
   font-size: 17px;
 }
 .informationAside > img {
-  height: 40vh;
+  width: 340px;
   object-fit: cover;
 }
