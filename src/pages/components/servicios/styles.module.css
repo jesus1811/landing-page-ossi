@@ -1,7 +1,6 @@
 .servicios {
   width: 100%;
-  background-color: #c33221;
-  /* background-color: #FF6900; */
+  background: linear-gradient(90deg, #c33221 30%, #ff6900 100%);
   display: flex;
   flex-direction: column;
   justify-content: center;
