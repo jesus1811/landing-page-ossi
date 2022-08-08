@@ -4,7 +4,7 @@ import { Hero, Servicios } from "./components";
 
 const Home = () => {
   return (
-    <Container title="Home | Ossi" description="empresa del rubro de metalmecanica">
+    <Container title="Ossi" description="Empresa del rubro de metalmecanica">
       <Header />
       <Hero />
       <Servicios/>
