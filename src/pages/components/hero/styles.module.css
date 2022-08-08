@@ -9,7 +9,7 @@
 }
 .banner {
   width: 100%;
-  height: 55vh;
+  height: 50vh;
   object-fit: cover;
 }
 .content {
@@ -27,4 +27,40 @@
   color: white;
   font-size: 22px;
   text-align: center;
+}
+/* information */
+.contentInformation {
+  margin-top: 50vh;
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contentInformation > img {
+  height: 50vh;
+  position: absolute;
+  object-fit: cover;
+}
+.informationAside {
+  width: 100%;
+  flex: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.informationAside > h3 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #BE5305;
+}
+.informationAside > p {
+  font-size: 17px;
+}
+.informationAside > img {
+  height: 40vh;
+  object-fit: cover;
 }
