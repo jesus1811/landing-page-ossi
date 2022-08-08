@@ -1,0 +1,30 @@
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+.banner {
+  width: 100%;
+  height: 55vh;
+  object-fit: cover;
+}
+.content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+.logo {
+  width: 270px;
+}
+.description {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
