@@ -4,7 +4,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: fixed;
+  z-index: -999;
   top: 0;
 }
 .banner {
@@ -29,10 +30,20 @@
   text-align: center;
 }
 /* information */
-.contentInformation {
-  margin-top: 50vh;
+.information {
   width: 100%;
-  max-width: 1024px;
+  margin-top: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #dff6fe;
+}
+.contentInformation {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,7 +66,7 @@
 .informationAside > h3 {
   font-size: 40px;
   font-weight: 500;
-  color: #BE5305;
+  color: #be5305;
 }
 .informationAside > p {
   font-size: 17px;
