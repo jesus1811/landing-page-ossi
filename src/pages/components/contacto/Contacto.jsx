@@ -63,7 +63,7 @@ const Contacto = () => {
                 name=""
                 id=""
                 cols="30"
-                rows="10"
+                rows="5"
                 placeholder="Mensaje"
                 onChange={(e) => setMessage(e.target.value)}
               ></textarea>
