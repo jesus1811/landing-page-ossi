@@ -1,7 +1,10 @@
 import React from "react";
 import styles from "./styles.module.css";
-
+import { Link, animateScroll } from "react-scroll";
 const Header = () => {
+  const scrollTop = () => {
+    animateScroll.scrollToTop();
+  };
   return (
     <div className={styles.header}>
       <img className={styles.bgHeader} src="/bannerPincipal.jpg" alt="" />
@@ -10,23 +13,25 @@ const Header = () => {
           <img src="/logo_menu.png" alt="ossi icon" />
         </div>
         <nav className={styles.navBar}>
-          <li className={`${styles.option} ${styles.optionActive}`}>
-            <a href="#">PRINCIPAL</a>
+          <li className={`${styles.option} ${styles.optionActive}`} onClick={scrollTop}>
+            <a>PRINCIPAL</a>
           </li>
           <li className={styles.option}>
-            <a href="#">NOSOTROS</a>
+            <Link to="about" smooth="true">
+              NOSOTROS
+            </Link>
           </li>
           <li className={styles.option}>
-            <a href="#">SERVICIOS</a>
+            <Link to="services" smooth="true">SERVICIOS</Link>
           </li>
           <li className={styles.option}>
-            <a href="#">CATALOGO</a>
+            <Link to="#">CATALOGO</Link>
           </li>
           <li className={styles.option}>
-            <a href="#">CLIENTES</a>
+            <Link to="#">CLIENTES</Link>
           </li>
           <li className={styles.option}>
-            <a href="#">CONTACTO</a>
+            <Link to="#">CONTACTO</Link>
           </li>
         </nav>
       </div>

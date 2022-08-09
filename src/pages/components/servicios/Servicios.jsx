@@ -6,7 +6,7 @@ const Servicios = () => {
   const [tipoServicio, setTipoServicio] = useState(1);
   return (
     <>
-      <div className={styles.servicios}>
+      <div className={`${styles.servicios} services`}>
         <div className={styles.content}>
           <h2 className={styles.title}>Servicios</h2>
           <div className={styles.contentCard}>
