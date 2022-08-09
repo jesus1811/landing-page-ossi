@@ -8,11 +8,58 @@
   background-image: url("/bg_Contacto.jpg");
   background-repeat: repeat;
   background-size: cover;
+  padding-top: 67px;
 }
 .content {
   width: 100%;
   max-width: 1000px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.content > h3 {
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+}
+.contentAside {
+  width: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  flex: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  gap: 20px;
+}
+.form > input {
+  width: 100%;
+  padding: 8px 20px;
+  background: transparent;
+  outline: none;
+  border-bottom: solid 2px hsl(197, 43%, 35%);
+}
+.form > textarea {
+  width: 100%;
+  padding: 8px 20px;
+  background: transparent;
+  border: solid 2px hsl(197, 43%, 35%);
+  border-radius: 10px;
 }
