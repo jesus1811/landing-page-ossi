@@ -43,7 +43,45 @@ export const TipoServicio1 = () => {
   );
 };
 export const TipoServicio2 = () => {
-  return <div>TipoServicio2</div>;
+  return (
+    <div className={styles.serviciosInformation}>
+      <div className={styles.informationContent}>
+        <article className={styles.informationCard}>
+          <h3>SERVICIOS A SISTEMAS CONTRA INCENDIO</h3>
+          <li>Evaluacion de proyectos</li>
+          <li>Ingenieria Basica y de detale</li>
+          <li>Elaboracion de bases tecnicas, simulaciones</li>
+          <li>Programacion y configuracion</li>
+          <li>Suministro, fabricacion, montaje e instalacion</li>
+        </article>
+        <article className={styles.informationCard}>
+          <h3>MANTENIMIENTO PREVENTIVO Y CORRECTIVO</h3>
+          <li>Elaboracion de temarios y ejecucion de cursos y capacitacion</li>
+          <li>Suministro, instalacion y puesta en operacion de sistemas contra incendio</li>
+          <li>Fabricacion de estructuras</li>
+          <li>Inspeccion y pruebas no destructivas</li>
+        </article>
+        <article className={styles.informationCard}>
+          <h3>SISTEMAS</h3>
+          <li>Detectores</li>
+          <li>Alarmas visuales y audibles</li>
+          <li>Sistemas automatizados de monitoreo y control</li>
+          <li>Sitemas de respiracion autonoma</li>
+          <li>Sitemas de respiracion en cascada</li>
+        </article>
+      </div>
+      <div className={styles.specialization}>
+        <h3>Somos Especialista en</h3>
+        <div>
+          <li>Mecanicos</li>
+          <li>Estructurales</li>
+          <li>Equipo de Buceo</li>
+          <li>Refaccionamiento</li>
+          <li>Procura</li>
+        </div>
+      </div>
+    </div>
+  );
 };
 export const TipoServicio3 = () => {
   return <div>TipoServicio3</div>;
