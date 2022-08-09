@@ -6,6 +6,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 35px 0;
+  padding-top: 64px;
 }
 .content {
   width: 100%;
@@ -26,25 +28,5 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 35px;
-}
-.card {
-  flex: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.card > img {
-  width: 100%;
-  max-width: 150px;
-}
-.active {
-  display: none;
-}
-.disable:hover {
-  display: none;
-}
-.card .disable:hover ~ .active {
-  display: initial;
+  gap: 30px;
 }

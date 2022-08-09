@@ -1,4 +1,5 @@
 import React from "react";
+import CardCliente from "../cardCliente/CardCliente";
 import styles from "./styles.module.css";
 
 const Clientes = () => {
@@ -7,27 +8,21 @@ const Clientes = () => {
       <div className={styles.content}>
         <h3>Clientes</h3>
         <div className={styles.contentCard}>
-          <article className={styles.card}>
-            <img src="/logos/NavieraArmamex_gris.jpg" alt="naviera armamex" className={styles.disable} />
-            <img src="/logos/NavieraArmamex_color.jpg" alt="naviera armamex" className={styles.active} />
-          </article>
-          <article className={styles.card}>
-            <img src="/logos/BaruOffshore_gris.jpg" alt="baru off shore" className={styles.disable} />
-            <img src="/logos/BaruOffshore_color.jpg" alt="baru off shore" className={styles.active} />
-          </article>
-          <article className={styles.card}>
-            <img src="/logos/Bourbon_gris.jpg" alt="naviera armamex" className={styles.disable} />
-            <img src="/logos/Bourbon_color.jpg" alt="baru off shore" className={styles.active} />
-          </article>
-          <article className={styles.card}>
-            <img src="/logos/NavieraArmamex_gris.jpg" alt="naviera armamex" />
-          </article>
-          <article className={styles.card}>
-            <img src="/logos/NavieraArmamex_gris.jpg" alt="naviera armamex" />
-          </article>
-          <article className={styles.card}>
-            <img src="/logos/NavieraArmamex_gris.jpg" alt="naviera armamex" />
-          </article>
+          <CardCliente src="NavieraArmamex" alt="naviera armamex" />
+          <CardCliente src="BaruOffshore" alt="naviera armamex" />
+          <CardCliente src="Bourbon" alt="naviera armamex" />
+          <CardCliente src="GulfMarine" alt="naviera armamex" />
+          <CardCliente src="Enermar" alt="naviera armamex" />
+          <CardCliente src="HamptonInn" alt="naviera armamex" />
+          <CardCliente src="HarrenPartner" alt="naviera armamex" />
+          <CardCliente src="NRC" alt="naviera armamex" />
+          <CardCliente src="OOSEnergy" alt="naviera armamex" />
+          <CardCliente src="GrupoDiavaz" alt="naviera armamex" />
+          <CardCliente src="SaamSmit" alt="naviera armamex" />
+          <CardCliente src="DuradcoOper" alt="naviera armamex" />
+          <CardCliente src="NavieraBourbon" alt="naviera armamex" />
+          <CardCliente src="GrupoBaerum" alt="naviera armamex" />
+          <CardCliente src="HarveyGulf" alt="naviera armamex" />
         </div>
       </div>
     </section>

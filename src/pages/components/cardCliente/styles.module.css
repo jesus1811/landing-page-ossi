@@ -1,0 +1,16 @@
+.card {
+  flex: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.active {
+  display: none;
+}
+.disable:hover {
+  display: none;
+}
+.card .disable:hover ~ .active {
+  display: initial;
+}
