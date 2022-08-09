@@ -9,7 +9,9 @@ const Hero = () => {
         <div className={styles.content}>
           <img className={styles.logo} src="/logo_banner.png" alt="logo ossi" />
           <h2 className={styles.description}>SERVICIO Y SUMINISTRO INTEGRADOS</h2>
+          <img className={styles.arrow} src="/arrow.svg" alt="" />
         </div>
+        {/* <img src="/arrow.png" alt="" /> */}
       </section>
       <section className={`${styles.information} about`}>
         <div className={styles.contentInformation}>

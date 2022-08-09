@@ -24,6 +24,24 @@
 .logo {
   width: 270px;
 }
+.arrow {
+  width: 100px;
+  color: white;
+  margin-top: 40px;
+  animation: movimiento infinite 3s;
+  transition: 1s;
+}
+@keyframes movimiento {
+  0% {
+    transform: translateY(5px);
+  }
+  50%{
+    transform: translateY(86px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
 .description {
   color: white;
   font-size: 22px;
