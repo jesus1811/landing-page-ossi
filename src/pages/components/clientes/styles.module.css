@@ -6,8 +6,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 35px 0;
-  padding-top: 64px;
 }
 .content {
   width: 100%;
@@ -16,7 +14,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 20px;
+  gap: 30px;
 }
 .content > h3 {
   font-size: 30px;

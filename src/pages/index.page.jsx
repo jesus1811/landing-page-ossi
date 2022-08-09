@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Header } from "../components";
-import { Clientes, Hero, Servicios } from "./components";
+import { Clientes, Contacto, Hero, Servicios } from "./components";
 
 const Home = () => {
   return (
@@ -9,6 +9,7 @@ const Home = () => {
       <Hero />
       <Servicios />
       <Clientes />
+      <Contacto />
     </Container>
   );
 };

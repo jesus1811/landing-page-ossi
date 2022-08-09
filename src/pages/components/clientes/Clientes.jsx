@@ -6,7 +6,7 @@ const Clientes = () => {
   return (
     <section className={`${styles.clientes} clientes`}>
       <div className={styles.content}>
-        <h3>Clientes</h3>
+        <h3>CLIENTES</h3>
         <div className={styles.contentCard}>
           <CardCliente src="NavieraArmamex" alt="naviera armamex" />
           <CardCliente src="BaruOffshore" alt="naviera armamex" />

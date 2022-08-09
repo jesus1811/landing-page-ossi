@@ -19,12 +19,12 @@ const Header = () => {
             <a>PRINCIPAL</a>
           </li>
           <li className={`${styles.option} ${active === 2 && styles.optionActive}`}>
-            <Link to="about" smooth="true" onClick={() => setActive(2)}>
+            <Link to="about" smooth onClick={() => setActive(2)}>
               NOSOTROS
             </Link>
           </li>
           <li className={`${styles.option} ${active === 3 && styles.optionActive}`}>
-            <Link to="services" smooth="true" onClick={() => setActive(3)}>
+            <Link to="services" smooth onClick={() => setActive(3)}>
               SERVICIOS
             </Link>
           </li>
@@ -34,12 +34,12 @@ const Header = () => {
             </Link>
           </li>
           <li className={`${styles.option} ${active === 5 && styles.optionActive}`}>
-            <Link to="clientes" smooth="true" onClick={() => setActive(5)}>
+            <Link to="clientes" smooth onClick={() => setActive(5)}>
               CLIENTES
             </Link>
           </li>
           <li className={`${styles.option} ${active === 6 && styles.optionActive}`}>
-            <Link to="#" onClick={() => setActive(6)}>
+            <Link to="contacto" smooth onClick={() => setActive(6)}>
               CONTACTO
             </Link>
           </li>
