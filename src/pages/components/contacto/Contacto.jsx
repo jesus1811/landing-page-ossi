@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./styles.module.css";
 
 const Contacto = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [telefono, setTelefono] = useState("");
+  const [asunto, setAsunto] = useState("");
+  const [message, setMessage] = useState("");
+  const handleSendEmail = (e) => {
+    e.preventDefault();
+    const mailto = document.querySelector("#email");
+    // mailto.setAttribute("href","mailto:ossi123@gmail.com")
+    mailto.setAttribute("href", `mailto:ossi123@gmail.com?subject=${asunto}&body=${message}`);
+    mailto.click();
+  };
   return (
     <section className={`${styles.contacto} contacto`}>
       <div className={styles.content}>
@@ -18,24 +30,40 @@ const Contacto = () => {
               <p>Bugambilla N°31 Fraccionamiento Puente de la unidad, C.P.24154.Cd. del carmen Campeche.</p>
             </li>
             <li className={styles.list}>
-              <img src="/whatssap.svg" alt="" />
-              <a>(938) 381 8594</a>
+              <a target="_blank" rel="noreferrer" href="https://wa.me/3818594" style={{ display: "flex", gap: "15px" }}>
+                <img src="/whatssap.svg" alt="" />
+                (938) 381 8594
+              </a>
             </li>
             <div className={styles.list}>
-              <img src="/linkedin.svg" alt="" />
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/ossi-servicios-y-suministros-integrados/">
+                <img src="/linkedin.svg" alt="" />
+              </a>
               <img src="/message.svg" alt="" />
               <p>Términos de Privacidad</p>
             </div>
           </aside>
           <aside className={styles.card}>
             <form className={styles.form}>
-              <input type="text" placeholder="Nombre" />
-              <input type="text" placeholder="Email" />
-              <input type="text" placeholder="Telefono" />
-              <input type="text" placeholder="Asunto" />
-              <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-              <button>Enviar</button>
+              <input type="text" placeholder="Nombre" onChange={(e) => setName(e.target.value)} />
+              <input type="text" placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
+              <input type="text" placeholder="Telefono" onChange={(e) => setTelefono(e.target.value)} />
+              <input type="text" placeholder="Asunto" onChange={(e) => setAsunto(e.target.value)} />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Mensaje"
+                onChange={(e) => setMessage(e.target.value)}
+              ></textarea>
+              <button onClick={handleSendEmail} type="submit">
+                Enviar
+              </button>
             </form>
+            <a id="email" href="mailto:holamundo@gmail.com" style={{ opacity: 0 }}>
+              email
+            </a>
           </aside>
         </div>
       </div>
