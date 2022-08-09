@@ -77,7 +77,7 @@ export const TipoServicio2 = () => {
 };
 export const TipoServicio3 = () => {
   return (
-    <div className={styles.serviciosInformation}>
+    <section className={styles.serviciosInformation}>
       <div className={`${styles.informationContent} ${styles.base}`}>
         <article className={styles.informationCard}>
           <h3>EQUIPOS DE LÍNEAS SUPERFICIALES DE INTERVENCIÓN DE POZOS</h3>
@@ -97,6 +97,6 @@ export const TipoServicio3 = () => {
           <li>Arrendamiento y suministro de herramientas especiales de perforación</li>
         </article>
       </div>
-    </div>
+    </section>
   );
 };

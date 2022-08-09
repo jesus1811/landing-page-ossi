@@ -6,7 +6,7 @@ const Servicios = () => {
   const [tipoServicio, setTipoServicio] = useState(1);
   return (
     <>
-      <div className={`${styles.servicios} services`}>
+      <section className={`${styles.servicios} services`}>
         <div className={styles.content}>
           <h2 className={styles.title}>Servicios</h2>
           <div className={styles.contentCard}>
@@ -24,7 +24,7 @@ const Servicios = () => {
             </article>
           </div>
         </div>
-      </div>
+      </section>
       {tipoServicio === 1 && <TipoServicio1 />}
       {tipoServicio === 2 && <TipoServicio2 />}
       {tipoServicio === 3 && <TipoServicio3 />}

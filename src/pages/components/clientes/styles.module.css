@@ -1,0 +1,50 @@
+.clientes {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #cbdce3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.content > h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: hsl(193, 7%, 50%);
+}
+.contentCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+.card {
+  flex: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card > img {
+  width: 100%;
+  max-width: 150px;
+}
+.active {
+  display: none;
+}
+.disable:hover {
+  display: none;
+}
+.card .disable:hover ~ .active {
+  display: initial;
+}
