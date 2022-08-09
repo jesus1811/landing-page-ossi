@@ -11,7 +11,11 @@ const Contacto = () => {
     e.preventDefault();
     const mailto = document.querySelector("#email");
     // mailto.setAttribute("href","mailto:ossi123@gmail.com")
-    mailto.setAttribute("href", `mailto:ossi123@gmail.com?subject=${asunto}&body=${message}`);
+    mailto.setAttribute(
+      "href",
+      `mailto:contacto@ossi.com.mx?subject=${asunto}&body=${message} Telefono:${telefono}
+      Nombre:${name} Email:${email}`
+    );
     mailto.click();
   };
   return (
@@ -36,11 +40,17 @@ const Contacto = () => {
               </a>
             </li>
             <div className={styles.list}>
-              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/ossi-servicios-y-suministros-integrados/">
-                <img src="/linkedin.svg" alt="" />
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/company/ossi-servicios-y-suministros-integrados/"
+              >
+                <img src="/linkedin.svg" alt="linkedin" />
               </a>
-              <img src="/message.svg" alt="" />
-              <p>Términos de Privacidad</p>
+              <img src="/message.svg" alt="send" />
+              <a href="/avisoDePrivacidad.pdf" target="_blank" rel="noreferrer">
+                Términos de Privacidad
+              </a>
             </div>
           </aside>
           <aside className={styles.card}>
@@ -61,9 +71,9 @@ const Contacto = () => {
                 Enviar
               </button>
             </form>
-            <a id="email" href="mailto:holamundo@gmail.com" style={{ opacity: 0 }}>
+            {/* <a id="email" href="mailto:contacto@ossi.com.mx">
               email
-            </a>
+            </a> */}
           </aside>
         </div>
       </div>

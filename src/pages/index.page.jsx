@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Header } from "../components";
-import { Clientes, Contacto, Hero, Servicios } from "./components";
+import { Catalogo, Clientes, Contacto, Hero, Servicios } from "./components";
 
 const Home = () => {
   return (
@@ -8,6 +8,7 @@ const Home = () => {
       <Header />
       <Hero />
       <Servicios />
+      <Catalogo />
       <Clientes />
       <Contacto />
     </Container>

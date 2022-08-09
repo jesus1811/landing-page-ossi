@@ -29,7 +29,7 @@ const Header = () => {
             </Link>
           </li>
           <li className={`${styles.option} ${active === 4 && styles.optionActive}`}>
-            <Link to="#" onClick={() => setActive(4)}>
+            <Link to="catalogo" smooth onClick={() => setActive(4)}>
               CATALOGO
             </Link>
           </li>
