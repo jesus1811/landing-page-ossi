@@ -19,7 +19,7 @@ const Hero = () => {
             <p>
               Somos una <b>empresa Mexicana</b> especializada en <b>brindar servicios y soluciones eficientes</b> para
               el desarrolales e Internacionales proyectos a toda la industria.
-              <b>Cumpliendo con los estandares de Seguridad, Salud y Medio Ambiente</b> que se requieren, apegados a las
+              <b>Cumpliendo con los estándares de Seguridad, Salud y Medio Ambiente</b> que se requieren, apegados a las
               certificaciones y Normas Nacionales e Internacionales
             </p>
           </aside>

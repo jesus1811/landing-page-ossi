@@ -6,35 +6,37 @@ export const TipoServicio1 = () => {
     <div className={styles.serviciosInformation}>
       <div className={styles.informationContent}>
         <article className={styles.informationCard}>
-          <h3>MECANICA</h3>
-          <li>Soporte tecnico en deteccion de fallas y reparaciones en sistemas de propulsion</li>
+          <h3>MECÁNICA</h3>
+          <li>Soporte técnico en detección de fallas y reparaciones en sistemas de propulsión</li>
           <li>Sistemas convencionales</li>
           <li>Pitch control system</li>
-          <li>Pocicionamiento dinamico (DP)</li>
+          <li>Pocicionamiento dinámico (DP)</li>
           <li>Azimutales</li>
           <li>thrusters</li>
         </article>
         <article className={styles.informationCard}>
-          <h3>SISTEMAS ELECTROHIDRUALICOS</h3>
+          <h3>SISTEMAS ELECTROHIDRÁLICOS</h3>
           <li>Transmisiones</li>
           <li>Twin disc</li>
-          <li>Bombas hidraulicas</li>
+          <li>Bombas hidráulicas</li>
           <li>Turbinas contra incendio (FIFI-I,II)</li>
         </article>
         <article className={styles.informationCard}>
-          <h3>ELECTROMECANICA</h3>
+          <h3>ELECTROMECÁNICA</h3>
           <li>Servicios de mantenimiento y suministro de winches</li>
-          <li>Extraccion de impelentes. Chumaceras, Poleas, etc</li>
+          <li>Extracción de impelentes. Chumaceras, Poleas, etc</li>
           <li>Cambio de Turbos</li>
           <li>Alineaciones</li>
         </article>
       </div>
       <div className={styles.specialization}>
         <h3>Somos Especialista en</h3>
-        <div>
-          <li>Mecanicos</li>
+        <div className={styles.contentSpecialization}>
+          <li>Mecánicos</li>
           <li>Estructurales</li>
+          <li>Electríco</li>
           <li>Equipo de Buceo</li>
+          <li>Refrigeración</li>
           <li>Refaccionamiento</li>
           <li>Procura</li>
         </div>
@@ -70,19 +72,31 @@ export const TipoServicio2 = () => {
           <li>Sitemas de respiracion en cascada</li>
         </article>
       </div>
-      <div className={styles.specialization}>
-        <h3>Somos Especialista en</h3>
-        <div>
-          <li>Mecanicos</li>
-          <li>Estructurales</li>
-          <li>Equipo de Buceo</li>
-          <li>Refaccionamiento</li>
-          <li>Procura</li>
-        </div>
-      </div>
     </div>
   );
 };
 export const TipoServicio3 = () => {
-  return <div>TipoServicio3</div>;
+  return (
+    <div className={styles.serviciosInformation}>
+      <div className={`${styles.informationContent} ${styles.base}`}>
+        <article className={styles.informationCard}>
+          <h3>EQUIPOS DE LÍNEAS SUPERFICIALES DE INTERVENCIÓN DE POZOS</h3>
+          <li>Tuberías de perforación</li>
+          <li>Todo tipo de bridas</li>
+          <li>Todo tipo de válvulas</li>
+          <li>Carretes de todas las medidas</li>
+        </article>
+        <article className={styles.informationCard}>
+          <li>Swivel</li>
+          <li>Variedad de canastillas</li>
+          <li>Amplia variedad de Tee´s</li>
+          <li>Quemadores ecolólogicos para onshore y offshore</li>
+        </article>
+        <article className={styles.informationCard}>
+          <li>Cajas de recorte</li>
+          <li>Arrendamiento y suministro de herramientas especiales de perforación</li>
+        </article>
+      </div>
+    </div>
+  );
 };
