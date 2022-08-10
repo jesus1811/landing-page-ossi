@@ -71,9 +71,9 @@ const Contacto = () => {
                 Enviar
               </button>
             </form>
-            {/* <a id="email" href="mailto:contacto@ossi.com.mx">
+            <a id="email" href="mailto:contacto@ossi.com.mx">
               email
-            </a> */}
+            </a>
           </aside>
         </div>
       </div>

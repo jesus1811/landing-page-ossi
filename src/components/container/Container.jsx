@@ -8,7 +8,9 @@ const Container = ({ children, title, description }) => {
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="keywords" content="ossi, servicios, soluciones, "/>
+        <meta name="author" content="Jesudev"/>
+        <link rel="icon" href="/logo_menu.ico" />
       </Head>
       <div className={styles.content}>{children}</div>
     </>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./styles.module.css";
 import { Link, animateScroll } from "react-scroll";
 const Header = () => {
-  const [active, setActive] = useState(2);
+  const [active, setActive] = useState(1);
   const scrollTop = () => {
     setActive(1);
     animateScroll.scrollToTop();
