@@ -64,10 +64,10 @@
   border-radius: 3px;
 }
 .orange {
-  background: linear-gradient(180deg, #fe6600 30%, #f8cd0f 100%);
+  background: linear-gradient(180deg, #1A5989 30%, #49afdf 100%);
 }
 .blue {
-  background: linear-gradient(180deg, #017ffc 30%, #04d5fc 100%);
+  background: linear-gradient(180deg, #26827A 30%, #6bc7c1 100%);
 }
 .pico {
   position: absolute;
@@ -84,10 +84,10 @@
   position: absolute;
 }
 .orange > span > img {
-  border: solid 10px #fe6600;
+  border: solid 10px #1A5989;
 }
 .blue > span > img {
-  border: solid 10px #017ffc;
+  border: solid 10px #26827A;
 }
 .value > span > img {
   border-radius: 100%;
@@ -107,8 +107,8 @@
   border-radius: 4px;
 }
 .orange > p {
-  background-color: #fe6600;
+  background-color: #1A5989;
 }
 .blue > p {
-  background-color: #017ffc;
+  background-color: #26827A;
 }
