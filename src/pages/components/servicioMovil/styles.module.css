@@ -23,6 +23,26 @@
     align-items: flex-start;
     gap: 25px;
   }
+  .contentPico {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pico {
+    display: none ;
+    width: 50px;
+    position: absolute;
+    transform: translateY(42px);
+  }
+  .picoActive {
+    display: initial;
+  } 
+  .mantenimiento {
+    transform: translateY(67px);
+  }
   .content > h2 {
     color: white;
     font-size: 30px;

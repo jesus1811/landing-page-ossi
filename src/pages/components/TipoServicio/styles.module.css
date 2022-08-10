@@ -74,4 +74,6 @@
 .contentSpecialization > li {
   font-size: 18px;
   color: white;
+  border-left: solid 10px #00b6c1;
+  border-radius: 100%;
 }

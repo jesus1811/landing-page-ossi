@@ -16,6 +16,9 @@ const Servicios = () => {
             >
               <h3>Mantenimiento</h3>
               <p>a embarcaciones e instalaciones costa afuera</p>
+              <div className={styles.contentPico}>
+                <img src="/pico.svg" alt="" className={`${styles.pico} ${tipoServicio === 1 && styles.picoActive}`} />
+              </div>
             </article>
             <article
               className={`${styles.card} ${styles.brown} ${tipoServicio === 2 && styles.active}`}
@@ -23,6 +26,9 @@ const Servicios = () => {
             >
               <h3>Servicios</h3>
               <p>a embarcaciones e instalaciones costa afuera</p>
+              <div className={styles.contentPico}>
+                <img src="/pico.svg" alt="" className={`${styles.pico} ${tipoServicio === 2 && styles.picoActive}`} />
+              </div>
             </article>
             <article
               className={`${styles.card} ${styles.green} ${tipoServicio === 3 && styles.active}`}
@@ -30,6 +36,9 @@ const Servicios = () => {
             >
               <h3>Mantenimiento</h3>
               <p>a infraestructuras</p>
+              <div className={styles.contentPico}>
+                <img src="/pico.svg" alt="" className={`${styles.pico} ${styles.mantenimiento} ${tipoServicio === 3 && styles.picoActive}`} />
+              </div>
             </article>
           </div>
         </div>

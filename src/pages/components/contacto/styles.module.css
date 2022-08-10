@@ -10,7 +10,6 @@
   background-size: cover;
   padding: 20px 20px;
   padding-top: 67px;
-  padding-bottom: 35px;
 }
 .content {
   width: 100%;
@@ -42,6 +41,11 @@
   align-items: flex-start;
   gap: 10px;
 }
+.card > a {
+  color: white;
+  font-size: 21px;
+  font-weight: 500;
+}
 .card > h3 {
   font-size: 21px;
   font-weight: 500;
@@ -57,7 +61,7 @@
   gap: 15px;
   margin: 10px 0;
 }
-.list  img {
+.list img {
   width: 30px;
 }
 .card > iframe {

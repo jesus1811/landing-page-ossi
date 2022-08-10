@@ -17,7 +17,7 @@ const Catalogo = () => {
           </a>
         </div>
         <div>
-          <video className={styles.video} autoPlay muted loop src="/video.mp4" />
+          <video className={styles.video} autoPlay muted controls loop src="/video.mp4" />
         </div>
       </div>
     </section>

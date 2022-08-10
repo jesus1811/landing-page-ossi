@@ -47,10 +47,6 @@ const Contacto = () => {
               >
                 <img src="/linkedin.svg" alt="linkedin" />
               </a>
-              <img src="/message.svg" alt="send" />
-              <a href="/avisoDePrivacidad.pdf" target="_blank" rel="noreferrer">
-                Términos de Privacidad
-              </a>
             </div>
           </aside>
           <aside className={styles.card}>
@@ -71,6 +67,9 @@ const Contacto = () => {
                 Enviar
               </button>
             </form>
+            <a href="/avisoDePrivacidad.pdf" target="_blank" rel="noreferrer">
+                Términos de Privacidad
+              </a>
             <a id="email" href="mailto:contacto@ossi.com.mx" style={{ opacity: "0" }}>
               email
             </a>

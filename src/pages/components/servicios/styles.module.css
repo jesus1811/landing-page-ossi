@@ -5,8 +5,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 60px;
+  padding-top: 65px;
   gap: 15px;
+}
+.contentPico {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pico {
+  display: none ;
+  width: 50px;
+  position: absolute;
+  transform: translateY(42px);
+}
+.picoActive {
+  display: initial;
+} 
+.mantenimiento {
+  transform: translateY(67px);
 }
 @media screen and (max-width: 1024px) {
   .servicios {
