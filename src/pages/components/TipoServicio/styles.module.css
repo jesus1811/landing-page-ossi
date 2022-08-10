@@ -35,6 +35,11 @@
   font-weight: 500;
   list-style: initial;
   color: #74898f;
+  list-style: none;
+}
+.informationCard > li > span {
+  color: orange;
+  font-size: 20px;
 }
 .specialization {
   width: 100%;
@@ -49,7 +54,7 @@
   padding: 30px 20px;
   gap: 15px;
 }
-.base{
+.base {
   align-items: flex-end;
 }
 .specialization > h3 {

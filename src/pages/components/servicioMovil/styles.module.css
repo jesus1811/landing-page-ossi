@@ -1,0 +1,82 @@
+.servicios {
+    width: 100%;
+    background: linear-gradient(90deg, #c33221 30%, #ff6900 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 60px;
+    gap: 15px;
+  }
+  @media screen and (min-width: 1024px) {
+    .servicios {
+      display: none;
+    }
+  }
+  .content {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+  }
+  .content > h2 {
+    color: white;
+    font-size: 30px;
+  }
+  .active {
+    box-shadow: 2px 2px 20px orange;
+  }
+  .contentCard {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .card {
+    flex: 300px;
+    border-radius: 16px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: 120px;
+    cursor: pointer;
+  }
+  .blue {
+    background-image: url("/Servicios_ManttoEmbarcaciones.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .brown {
+    background-image: url("/Servicios_GasFuego.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .green {
+    background-image: url("/Servicios_ManttoInfreest.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card > h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    z-index: 1;
+    margin: 0 15px;
+  }
+  .card > p {
+    font-size: 17px;
+    font-weight: 300;
+    color: white;
+    z-index: 1;
+    margin: 0 15px;
+  }
+  /* information */
+  

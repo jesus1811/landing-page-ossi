@@ -33,10 +33,10 @@ const Servicios = () => {
             </article>
           </div>
         </div>
+        {tipoServicio === 1 && <TipoServicio1 />}
+        {tipoServicio === 2 && <TipoServicio2 />}
+        {tipoServicio === 3 && <TipoServicio3 />}
       </section>
-      {tipoServicio === 1 && <TipoServicio1 />}
-      {tipoServicio === 2 && <TipoServicio2 />}
-      {tipoServicio === 3 && <TipoServicio3 />}
     </>
   );
 };
