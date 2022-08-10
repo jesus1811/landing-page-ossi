@@ -10,15 +10,24 @@ const Servicios = () => {
         <div className={styles.content}>
           <h2 className={styles.title}>Servicios</h2>
           <div className={styles.contentCard}>
-            <article className={`${styles.card} ${styles.blue}`} onClick={() => setTipoServicio(1)}>
+            <article
+              className={`${styles.card} ${styles.blue} ${tipoServicio === 1 && styles.active}`}
+              onClick={() => setTipoServicio(1)}
+            >
               <h3>Mantenimiento</h3>
               <p>a embarcaciones e instalaciones costa afuera</p>
             </article>
-            <article className={`${styles.card} ${styles.brown}`} onClick={() => setTipoServicio(2)}>
+            <article
+              className={`${styles.card} ${styles.brown} ${tipoServicio === 2 && styles.active}`}
+              onClick={() => setTipoServicio(2)}
+            >
               <h3>Servicios</h3>
               <p>a embarcaciones e instalaciones costa afuera</p>
             </article>
-            <article className={`${styles.card} ${styles.green}`} onClick={() => setTipoServicio(3)}>
+            <article
+              className={`${styles.card} ${styles.green} ${tipoServicio === 3 && styles.active}`}
+              onClick={() => setTipoServicio(3)}
+            >
               <h3>Mantenimiento</h3>
               <p>a infraestructuras</p>
             </article>

@@ -16,10 +16,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  gap: 25px;
 }
 .content > h2 {
   color: white;
   font-size: 30px;
+}
+.active {
+  box-shadow: 2px 2px 20px orange;
 }
 .contentCard {
   display: flex;
