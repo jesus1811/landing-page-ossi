@@ -11,7 +11,7 @@ const Catalogo = () => {
             <img src="/Icon_Constancia.png" alt="constancia ossi" />
             <p>Contancia de registro</p>
           </a>
-          <a href=""  target="_blank" rel="noreferrer">
+          <a href="/DistribuidorAutorizado.pdf"  target="_blank" rel="noreferrer">
             <img src="/Icon_Distribuidor.png" alt="distribuidor ossi" />
             <p>Distribuidor autorizado</p>
           </a>
