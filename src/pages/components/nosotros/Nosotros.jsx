@@ -19,6 +19,22 @@ const Nosotros = () => {
           <img src="/Esquema_QuienesSomos.png" alt="" />
         </aside>
       </div>
+      <div className={styles.contentValues}>
+        <article className={`${styles.value} ${styles.orange}`}>
+          <span>
+            <img src="/mision.png" alt="" />
+          </span>
+          <h3>MISIÓN</h3>
+          <p>Proporcionar soluciones eficientes en la industria y la excelencia</p>
+        </article>
+        <article className={`${styles.value} ${styles.blue}`}>
+          <span>
+            <img src="/vision.png" alt="" />
+          </span>
+          <h3>VISIÓN</h3>
+          <p>OSSI, comprometidos con la seguridad y calidad en nuestros servicios</p>
+        </article>
+      </div>
     </section>
   );
 };
