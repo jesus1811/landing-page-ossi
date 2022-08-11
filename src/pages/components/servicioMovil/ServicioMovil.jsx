@@ -14,8 +14,8 @@ const ServicioMovil = () => {
             onClick={() => setTipoServicio(1)}
           >
             <h3>Mantenimiento</h3>
-            <p>a embarcaciones e instalaciones costa afuera</p>
-            <p>Ver mas...</p>
+            <p className={styles.text}>a embarcaciones e instalaciones costa afuera</p>
+            <p className={styles.view}>Ver mas...</p>
             <div className={styles.contentPico}>
               <img src="/pico.svg" alt="" className={`${styles.pico} ${tipoServicio === 1 && styles.picoActive}`} />
             </div>
@@ -26,8 +26,8 @@ const ServicioMovil = () => {
             onClick={() => setTipoServicio(2)}
           >
             <h3>Servicios</h3>
-            <p>a embarcaciones e instalaciones costa afuera</p>
-            <p>Ver mas...</p>
+            <p className={styles.text}>a embarcaciones e instalaciones costa afuera</p>
+            <p className={styles.view}>Ver mas...</p>
             <div className={styles.contentPico}>
               <img src="/pico.svg" alt="" className={`${styles.pico} ${tipoServicio === 2 && styles.picoActive}`} />
             </div>
@@ -38,8 +38,8 @@ const ServicioMovil = () => {
             onClick={() => setTipoServicio(3)}
           >
             <h3>Mantenimiento</h3>
-            <p>a infraestructuras</p>
-            <p>Ver mas...</p>
+            <p className={styles.text}>a infraestructuras</p>
+            <p className={styles.view}>Ver mas...</p>
             <div className={styles.contentPico}>
               <img
                 src="/pico.svg"
