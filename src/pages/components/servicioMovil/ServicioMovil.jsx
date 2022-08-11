@@ -15,6 +15,7 @@ const ServicioMovil = () => {
           >
             <h3>Mantenimiento</h3>
             <p>a embarcaciones e instalaciones costa afuera</p>
+            <p>Ver mas...</p>
             <div className={styles.contentPico}>
               <img src="/pico.svg" alt="" className={`${styles.pico} ${tipoServicio === 1 && styles.picoActive}`} />
             </div>
@@ -26,6 +27,7 @@ const ServicioMovil = () => {
           >
             <h3>Servicios</h3>
             <p>a embarcaciones e instalaciones costa afuera</p>
+            <p>Ver mas...</p>
             <div className={styles.contentPico}>
               <img src="/pico.svg" alt="" className={`${styles.pico} ${tipoServicio === 2 && styles.picoActive}`} />
             </div>
@@ -37,6 +39,7 @@ const ServicioMovil = () => {
           >
             <h3>Mantenimiento</h3>
             <p>a infraestructuras</p>
+            <p>Ver mas...</p>
             <div className={styles.contentPico}>
               <img
                 src="/pico.svg"
