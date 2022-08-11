@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./styles.module.css";
+import styles from "./styles.module.scss";
 import { Link, animateScroll } from "react-scroll";
 const Header = () => {
   const [active, setActive] = useState(1);

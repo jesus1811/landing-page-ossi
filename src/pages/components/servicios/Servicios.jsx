@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { TipoServicio1, TipoServicio2, TipoServicio3 } from "../TipoServicio/TipoServicio";
-import styles from "./styles.module.css";
+import styles from "./styles.module.scss";
 
 const Servicios = () => {
   const [tipoServicio, setTipoServicio] = useState(1);
