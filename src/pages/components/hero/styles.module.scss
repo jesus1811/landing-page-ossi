@@ -8,11 +8,13 @@
   z-index: -999;
   top: 0;
 }
+
 .banner {
   width: 100%;
   height: 100vh;
   object-fit: cover;
 }
+
 .content {
   position: absolute;
   display: flex;
@@ -21,9 +23,11 @@
   align-items: center;
   padding: 0 20px;
 }
+
 .logo {
   width: 250px;
 }
+
 .arrow {
   width: 100px;
   color: white;
@@ -31,23 +35,27 @@
   animation: movimiento infinite 3s;
   transition: 1s;
 }
-@media screen and (min-width: 1024px) {
-  .arrow {
-    display: none;
-  }
-}
+
+// @media screen and (min-width: 1024px) {
+//   .arrow {
+//     display: none;
+//   }
+// }
 
 @keyframes movimiento {
   0% {
     transform: translateY(5px);
   }
+
   50% {
     transform: translateY(86px);
   }
+
   100% {
     transform: translateY(5px);
   }
 }
+
 .description {
   color: white;
   font-size: 22px;

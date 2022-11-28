@@ -7,11 +7,11 @@ const Catalogo = () => {
       <div className={styles.content}>
         <h3>CATÁLOGO</h3>
         <div className={styles.contentImages}>
-          <a href="/registro.pdf"  target="_blank" rel="noreferrer">
+          <a href="/registro.pdf" target="_blank" rel="noreferrer">
             <img src="/Icon_Constancia.png" alt="constancia ossi" />
             <p>Contancia de registro</p>
           </a>
-          <a href="/DistribuidorAutorizado.pdf"  target="_blank" rel="noreferrer">
+          <a href="/DistribuidorAutorizado.pdf" target="_blank" rel="noreferrer">
             <img src="/Icon_Distribuidor.png" alt="distribuidor ossi" />
             <p>Distribuidor autorizado</p>
           </a>

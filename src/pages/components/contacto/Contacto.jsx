@@ -34,17 +34,13 @@ const Contacto = () => {
               <p>Bugambilla N°31 Fraccionamiento Puente de la unidad, C.P.24154.Cd. del carmen Campeche.</p>
             </li>
             <li className={styles.list}>
-              <a target="_blank" rel="noreferrer" href="https://wa.me/3818594" style={{ display: "flex", gap: "15px" }}>
+              <a target="_blank" rel="noreferrer" href="https://wa.me/936129604" style={{ display: "flex", gap: "15px" }}>
                 <img src="/whatssap.svg" alt="" />
-                (938) 381 8594
+                936 129 604
               </a>
             </li>
             <div className={styles.list}>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.linkedin.com/company/ossi-servicios-y-suministros-integrados/"
-              >
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/ossi-servicios-y-suministros-integrados/">
                 <img src="/linkedin.svg" alt="linkedin" />
               </a>
             </div>
@@ -55,21 +51,14 @@ const Contacto = () => {
               <input type="text" placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
               <input type="text" placeholder="Telefono" onChange={(e) => setTelefono(e.target.value)} />
               <input type="text" placeholder="Asunto" onChange={(e) => setAsunto(e.target.value)} />
-              <textarea
-                name=""
-                id=""
-                cols="30"
-                rows="5"
-                placeholder="Mensaje"
-                onChange={(e) => setMessage(e.target.value)}
-              ></textarea>
+              <textarea name="" id="" cols="30" rows="5" placeholder="Mensaje" onChange={(e) => setMessage(e.target.value)}></textarea>
               <button onClick={handleSendEmail} type="submit">
                 Enviar
               </button>
             </form>
             <a href="/avisoDePrivacidad.pdf" target="_blank" rel="noreferrer">
-                Términos de Privacidad
-              </a>
+              Términos de Privacidad
+            </a>
             <a id="email" href="mailto:contacto@ossi.com.mx" style={{ opacity: "0" }}>
               email
             </a>

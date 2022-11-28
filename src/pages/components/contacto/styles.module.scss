@@ -11,6 +11,7 @@
   padding: 20px 20px;
   padding-top: 67px;
 }
+
 .content {
   width: 100%;
   max-width: 1000px;
@@ -20,11 +21,13 @@
   align-items: flex-start;
   gap: 20px;
 }
-.content > h3 {
+
+.content>h3 {
   color: white;
   font-size: 28px;
   font-weight: 500;
 }
+
 .contentAside {
   width: 100%;
   display: flex;
@@ -33,6 +36,7 @@
   flex-wrap: wrap;
   gap: 25px;
 }
+
 .card {
   flex: 300px;
   display: flex;
@@ -41,17 +45,20 @@
   align-items: flex-start;
   gap: 10px;
 }
-.card > a {
+
+.card>a {
   color: white;
   font-size: 21px;
   font-weight: 500;
 }
-.card > h3 {
+
+.card>h3 {
   font-size: 21px;
   font-weight: 500;
   text-align: center;
-  color: #141414;
+  color: white;
 }
+
 .list {
   font-size: 18px;
   color: white;
@@ -61,16 +68,19 @@
   gap: 15px;
   margin: 10px 0;
 }
+
 .list img {
   width: 30px;
 }
-.card > iframe {
+
+.card>iframe {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 400px;
 }
+
 .form {
   width: 100%;
   padding: 20px;
@@ -82,7 +92,8 @@
   border-radius: 10px;
   gap: 18px;
 }
-.form > input {
+
+.form>input {
   width: 100%;
   padding: 8px 20px;
   background: transparent;
@@ -90,7 +101,8 @@
   border-bottom: solid 3px #336a80;
   color: #336a80;
 }
-.form > button {
+
+.form>button {
   width: 100%;
   padding: 8px 20px;
   background: #336a80;
@@ -99,20 +111,25 @@
   font-size: 22px;
   border-radius: 10px;
 }
-.form > button:hover {
+
+.form>button:hover {
   background: #00b6c1;
 }
-.form > input::placeholder {
+
+.form>input::placeholder {
   color: #336a80;
   font-weight: 500;
 }
-.form > input:focus {
+
+.form>input:focus {
   border-bottom: solid 3px #00b6c1;
 }
-.form > textarea:focus {
+
+.form>textarea:focus {
   border: solid 3px #00b6c1;
 }
-.form > textarea {
+
+.form>textarea {
   width: 100%;
   padding: 8px 20px;
   background: transparent;
@@ -121,7 +138,8 @@
   border-radius: 10px;
   color: #336a80;
 }
-.form > textarea::placeholder {
+
+.form>textarea::placeholder {
   color: #336a80;
   font-weight: 500;
 }
